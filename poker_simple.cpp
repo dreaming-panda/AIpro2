@@ -365,7 +365,7 @@ void convert_ss()
         }
     for(int i=0;i<=v[answer].details[2]-1;i++)
         {
-            int x = ss.two[ss.three.size()-1];
+            int x = ss.three[ss.three.size()-1];
             ss.one.push_back(x);
             ss.one.push_back(x);
             ss.one.push_back(x);
@@ -373,21 +373,21 @@ void convert_ss()
         }
     for(int i=0;i<=v[answer].details[3]-1;i++)
         {
-            int x = ss.two[ss.four.size()-1];
+            int x = ss.four[ss.four.size()-1];
             ss.one.push_back(x);
             ss.three.push_back(x);
             ss.four.pop_back();
         }
     for(int i=0;i<=v[answer].details[4]-1;i++)
         {
-            int x = ss.two[ss.four.size()-1];
+            int x = ss.four[ss.four.size()-1];
             ss.two.push_back(x);
             ss.two.push_back(x);
             ss.four.pop_back();
         }
     for(int i=0;i<=v[answer].details[5]-1;i++)
         {
-            int x = ss.two[ss.four.size()-1];
+            int x = ss.four[ss.four.size()-1];
             ss.one.push_back(x);
             ss.one.push_back(x);
             ss.two.push_back(x);
@@ -395,7 +395,7 @@ void convert_ss()
         }
     for(int i=0;i<=v[answer].details[6]-1;i++)
         {
-            int x = ss.two[ss.four.size()-1];
+            int x = ss.four[ss.four.size()-1];
             ss.one.push_back(x);
             ss.one.push_back(x);
             ss.one.push_back(x);
